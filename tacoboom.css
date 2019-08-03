@@ -2,17 +2,25 @@ body {
   background-image: url("asset/tacopattern.jpg");
 }
 img{
-  width: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
-word{
+p{
     
     text-align: center;
-  border-left: 8px solid blue;
-  background-color: lightgrey;
+
+  background-color: hsla(200,40%,70%,0.3);
+  box-shadow: 10px 10px grey;
 }
-blrb{
+h1{
     font-size: 10vw;
     text-align: center;
+      background-color: hsla(200,40%,70%,0.3) ;
+  padding: 10px ;
+  box-shadow: 10px 10px grey;
 }
