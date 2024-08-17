@@ -39,3 +39,17 @@ h1{
 body {
   cursor: url('asset/taco-cursor.png'), auto;
 }
+
+.floating-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.centered-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
