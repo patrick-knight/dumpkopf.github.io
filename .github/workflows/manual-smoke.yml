@@ -1,0 +1,14 @@
+name: Manual smoke test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm repository contents
+        run: |
+          test -f index.html
+          echo "Repository looks good."
